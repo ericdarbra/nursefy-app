@@ -1,0 +1,166 @@
+.main-ho {
+  background: rgb(237, 255, 250);
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.login-title {
+  margin-top: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.legend {
+  display: inline;
+  float: right;
+  margin: 2vw 2vw 6vw 0vw;
+}
+.legend span{
+  display:table-cell
+}
+
+.toggle {
+  margin-right: 2vw;
+}
+
+.home-toggle-legend {
+  margin:1vw;
+  display:inline
+}
+
+span.set-aval-text {
+  vertical-align: super;
+  font-size: 100%;
+}
+
+.aval-submit-button{
+  background-color: #3174ad;
+  border-radius: 20px;
+  border: 0;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left:2vw;
+  vertical-align: super;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.rbc-header {
+  text-align: left !important;
+  background: rgb(42, 119, 129) !important;
+  height: 1.4em !important;
+  padding: 0px !important;
+  font-size: 75% !important;
+  color: white !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.rbc-row {
+  color: gray !important;
+  font-weight: 300 !important;
+  font-size: 80% !important;
+}
+
+.rbc-calendar {
+  height: 70vh !important;
+  margin-top: 7vh !important;
+}
+
+.rbc-toolbar-label {
+  font-size: 3.7vw
+}
+
+.rbc-toolbar button {
+  color: white !important;
+  border: 0 !important;
+  margin: 1px !important;
+  background: #3174ad !important;
+}
+
+.rbc-toolbar {
+  width: 80%
+}
+
+.rbc-event {
+  font-size: 170%;
+  padding: 2px 4px;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .login-title {
+    margin: 3vw;
+    font-size: 2.5vw;
+    font-weight: 100;
+  }
+
+  .aval-submit-button{
+    margin-left:1vw;
+    margin-right:0vw;
+    font-size: 0.7vw;
+    vertical-align: super;
+  }
+  .legend {
+    display: inline;
+    float: right;
+    margin: 0vw 2vw 0vw 0vw;
+  }
+  .legend span{
+    display:inline
+  }
+
+  .calendar {
+    margin: 0 8vw 0vw 8vw;
+  }
+  .rbc-header {
+    text-align: center !important;
+    padding: 0px !important;
+    font-size: 140% !important;
+    color: white !important;
+  }
+  .rbc-calendar {
+    height: 70vh !important;
+    margin-top: 7vh !important
+  }
+  .rbc-toolbar-label {
+    font-size: 1.3vw
+  }
+  .rbc-toolbar {
+    width: 80%
+  }
+  .rbc-event {
+    font-size: 110%;
+    padding: 2px 4px;
+  }
+}

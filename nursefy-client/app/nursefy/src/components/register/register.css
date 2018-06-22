@@ -1,0 +1,121 @@
+.main-ss {
+    background: rgb(237, 255, 250);
+
+}
+
+.main-content-register {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 2em;
+    padding-bottom: 2em;
+   
+}
+.main-content-register h2{
+    text-align:center;
+    margin-top:0;
+    color: #3d6868;
+}
+
+.header-logo {
+    margin: 0.5em;
+    font-size: 160%;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(167, 241, 232);
+   /*  text-shadow: 1px 2px rgb(61, 61, 61); */
+}
+
+hr {
+    color: #868686;
+    border-style: solid;
+    border-width: 0.4px;
+    margin: 0em 4em 0em 4em
+}
+
+.register-title {
+    font-size: 5.5vw;
+    text-align: center;
+    margin: 2em 0em 2em 0em;
+    font-weight: 300;
+}
+
+.main-button {
+    background-color: #5ca19c;
+    border-radius: 10px;
+    border: 0;
+    padding: 1.5em;
+    margin: 4em 2em 1em 2em;
+    -webkit-box-shadow: 1px 2px 4px 0px #00000030;
+    box-shadow: 1px 2px 4px 0px #00000030;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4.2vw;
+}
+
+nav {
+    display: flex;
+    background: rgb(61, 104, 104);
+    justify-content: space-between;
+}
+.logout{
+    margin:1.3em;
+    margin-right:3em;
+    font-weight:bold;
+}
+
+form input {
+    border-width: 0;
+    margin: 1.5em 2em;
+    padding: 1em;
+    -webkit-box-shadow: 1px 1px 3px #5e5e5e29;
+    box-shadow: 1px 1px 3px #5e5e5e29;
+}
+@media (min-width: 600px) {
+    .header-logo{
+        margin-left:5vw;
+    }
+ 
+    .register-title{
+        display:none;
+        font-size:3vw;
+    }
+    .main-content-register {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        background: white;
+        min-width:300px;
+        max-width:510px;
+        max-height:550px;
+        padding:1.8em;
+        flex-direction: column;
+        margin: 0 auto;
+        box-shadow: #0000004a 0px 5px 13px 0px;
+        margin-top: 2em;
+        margin-bottom:2em
+
+    }
+    .main-content-register h2{
+        text-align:center;
+        margin-top:0;
+        color: #3d6868;
+    }
+    .main-content-register p {
+        color:gray;
+        margin:1em 2em
+    }
+    .main-content-register input{
+        border: 1px solid #5ca19c59;
+        margin: 1em 2em
+    }
+    .main-button{
+        margin: 0 auto;
+        margin-top: 2em;
+        padding: 1em;
+        padding-left: 4em;
+        padding-right: 4em;
+        font-size: 1em;
+    }
+}

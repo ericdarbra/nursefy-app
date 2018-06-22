@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Tajawal:200');
+
+.main {
+
+    background: rgb(11, 138, 130, 0.4);
+    background: linear-gradient(180deg, rgb(8, 95, 89) 0%, rgb(11, 194, 185) 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.main-content {
+    
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+.header {
+    margin: 0 auto;
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 20px; 
+    text-transform: uppercase;
+    color: rgb(167, 241, 232);
+}
+
+
+.back-symbol {
+    font-size: 8vw;
+    color: #a7f1e8;
+    text-shadow: 2px 1px black;
+    margin: 0.7em 0.2em 0em 0.4em;
+}
+
+.title {
+    margin-top:1.5em;
+
+}
+.subtitle{
+    color:white;
+    display:block;
+    letter-spacing: 2px;
+
+    font-size:3.5vw;
+    text-shadow: none;
+    text-transform: uppercase;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size:14vw;
+    margin-top:1em;
+    letter-spacing: 5px;
+    font-weight: 300;
+    margin-bottom:0;
+}
+
+.main-register-button {
+    background-color: #ecfdbf;
+    border-radius: 10px;
+    border: 0;
+    padding: 1.5em;
+    margin: 1em 2em 1em 2em;
+    -webkit-box-shadow: 1px 2px 4px 0px #00000030;
+    box-shadow: 1px 2px 4px 0px #00000030;
+    text-decoration: none;
+    color: darkslategrey;
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+.main-login-button {
+    background-color: #2b7572;
+    border-radius: 10px;
+    border: 0;
+    margin: 1em 2em 1em 2em;
+    padding: 1.5em;
+    box-shadow: 1px 2px 4px 0px #0000002a;
+    font-size: 4.5vw;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px gray;
+}
+
+span {
+    text-align: center;
+    font-size: 80%;
+    margin: 0.9em;
+}
+
+span a {
+    color: #98e9e1;
+    text-decoration: none;
+}
+
+@media (min-width: 600px) {
+
+    .main {
+        background: url(../../images/med.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0
+    }
+    h1{
+        font-size:6vw;
+        font-weight:100;
+    }
+    .title{
+        margin-top:1em
+    }
+    .subtitle{
+        font-size:1.5vw
+    }
+    .cover {
+        background: rgba(6, 133, 124, 0.5);
+        background: linear-gradient(180deg, rgb(8, 95, 89) 0%, rgb(11, 194, 185) 100%, 0.5);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0
+    }
+    .main-content {
+ 
+        display: flex;
+        margin: 0 auto;
+        margin-left:2em;
+        margin-right:2em;
+        flex-direction: column;
+        margin-top: 5em;
+    }
+    .text-center{
+        text-align:center
+    }
+    
+    .main-register-button {
+        background-color: #ffffff33;
+        border-radius: 10px;
+        width:14vw;
+        margin:0 auto;
+        margin-top:3vw;
+        margin-bottom:3vw;
+        padding: 1em;
+        -webkit-box-shadow: 1px 2px 4px 0px #00000030;
+        box-shadow: 1px 2px 4px 0px #00000030;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px gray;
+        font-size: 1.1vw;
+    }
+    .main-register-button:hover{
+        background-color:#8d8d8d70
+    }
+    
+    .main-login-button {
+        background-color: #ffffff33;
+        border-radius: 10px;
+        width:14vw;
+        margin:0 auto;
+        padding: 1em;
+        box-shadow: 1px 2px 4px 0px #0000002a;
+        font-size: 1.1vw;
+        text-decoration: none;
+        color: white;
+        text-shadow: 1px 1px gray;
+    }
+    .main-login-button:hover{
+        background-color:#8d8d8d70
+    }
+}

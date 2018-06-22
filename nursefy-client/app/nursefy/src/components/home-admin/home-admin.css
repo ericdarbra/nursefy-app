@@ -1,0 +1,165 @@
+.main-ha {
+    background: rgb(237, 255, 250);
+    height:100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-title {
+    display: block
+}
+.home-title{
+    margin:5vw;
+    color: #2a6870;
+    font-size:3.5vh;
+    text-align: center;
+
+}
+.form-shift{
+    margin:0em 1em;
+    display:flex;
+    flex-direction: column;
+}
+.form-event{
+    display:flex;
+    flex-direction: column;
+    margin:0em 1em
+}
+
+.form-event input{
+    margin:0em 1em 2em 0em;
+    display:inline
+}
+.form-shift > select {
+    margin-right: 1em;
+    padding: 1em;
+    padding-right: 2em;
+    border: 0;
+    -webkit-box-shadow: 1px 2px 5px #0000001f;
+    box-shadow: 1px 2px 5px #0000001f;
+}
+.shift-box{
+    display:flex;
+    flex-direction: column;
+    margin:0em 1em
+}
+.shift-box > select {
+    margin-right: 1em;
+    padding: 1em;
+    padding-right: 2em;
+    border: 0;
+    box-shadow: 1px 2px 5px #0000001f;
+}
+.form-submit-button{
+    background-color: #3174ad;
+    border-radius: 20px;
+    border: 0;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left:15vw;
+    margin-right:15vw;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+
+.title {
+    text-align: center;
+}
+
+span.set-aval-text {
+    vertical-align: super;
+    font-size: 100%;
+}
+
+.rbc-header {
+    text-align: left !important;
+    background: rgb(42, 119, 129) !important;
+    height: 1.4em !important;
+    padding: 0px !important;
+    font-size: 100% !important;
+    color: white !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.rbc-row {
+    color: gray !important;
+    font-weight: 300 !important;
+    font-size: 80% !important;
+}
+.rbc-month-view{
+    background:white
+}
+.rbc-event{
+    font-size:80%;
+    padding:1px 4px;
+}
+
+footer{
+    text-align:center;
+    color:white;
+    padding:5vh;
+    font-size:70%;
+    margin-top:10vh;
+    background: rgb(42, 119, 129)
+}
+
+@media (min-width: 600px) {
+
+    .calendar{
+        margin: 0 8vw 0vw 8vw
+    }
+    .rbc-header {
+        text-align: center !important;
+        padding: 0px !important;
+        font-size: 140% !important;
+        color: white !important;
+    }
+
+    .form-general{
+        display:flex;
+        justify-content: space-between
+        
+    }
+    .form-shift{
+        margin:0em 2em
+    }
+    .form-event{
+        display:inline;
+        margin:0em 2em
+    }
+    
+    .shift-box{
+        margin:0em 2em
+    }
+    .home-title{
+        margin:3vw;
+        font-size:2.5vw;
+        font-weight: 100
+    }
+    .form-submit-button{
+        margin-left:3vw;
+        margin-right:0vw;
+        font-size: 1vw;
+    }
+    .rbc-calendar{
+        height:70vh !important;
+        margin-top:7vh !important
+    }
+    .rbc-toolbar-label{
+        font-size:1.3vw
+    }
+    .rbc-toolbar{
+        width:80%
+    }
+    .rbc-event{
+        font-size:110%;
+        padding:2px 4px;
+    }
+
+}
